@@ -4,4 +4,6 @@ RUN go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 FROM alpine:3.15.0
 RUN apk add --no-cache bind-tools ca-certificates chromium gettext
 COPY --from=build-env /go/bin/nuclei /usr/local/bin/nuclei
+COPY gitlab-ca.pem /usr/local/share/ca-certificates/gitlab-ca.pem
+RUN cat /usr/local/share/ca-certificates/gitlab-ca.pem >> /etc/ssl/certs/ca-certificates.crt
 CMD ["nuclei"]
