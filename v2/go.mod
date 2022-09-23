@@ -10,7 +10,7 @@ require (
 	github.com/apex/log v1.9.0
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bluele/gcache v0.0.2
-	github.com/corpix/uarand v0.1.1
+	github.com/corpix/uarand v0.2.0
 	github.com/go-playground/validator/v10 v10.10.0
 	github.com/go-rod/rod v0.102.0
 	github.com/gobwas/ws v1.1.0
@@ -71,7 +71,7 @@ require (
 	github.com/Ice3man543/nvd v1.0.8
 	github.com/openrdap/rdap v0.9.1-0.20191017185644-af93e7ef17b7
 	github.com/projectdiscovery/iputil v0.0.0-20210804143329-3a30fcde43f3
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	github.com/zmap/zcrypto v0.0.0-20211005224000-2d0ffdec8a9b
 )
 
